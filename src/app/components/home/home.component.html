@@ -1,0 +1,27 @@
+<div class="filters" >
+<mat-form-field>
+  <mat-label>sort</mat-label>
+  <mat-select panelClass="sort-select" [(ngModel)]="sort">
+    <mat-option value="name">Name</mat-option>
+        <mat-option value="-released">Released</mat-option>
+        <mat-option value="-added">Added</mat-option>
+        <mat-option value="-created">Created</mat-option>
+        <mat-option value="-updated">Updated</mat-option>
+        <mat-option value="-rating">Rating</mat-option>
+        <mat-option value="metacritic">Metacritic</mat-option>
+  </mat-select>
+</mat-form-field></div>
+
+<div class="games">
+<div class="game">
+  <div class="game-thumb-container">
+    <img class="game-thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi9WbG9OnvrYLP-c6JuSfP9ejORzfTCMWyQ4rSBOhX-g&s" alt="">
+  </div>
+  <div class="game-description">
+    <p class="game-name">Name</p>
+    <div class="game-platforms">
+      <img class="game-platform" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEs1RM8VPmXfPi38Lw-swX0V1PSvOAif3_S8udC_Bl&s" alt="" >
+    </div>
+  </div>
+</div>
+</div>
